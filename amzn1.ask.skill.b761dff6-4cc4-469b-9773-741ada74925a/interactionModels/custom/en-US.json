@@ -1,0 +1,212 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "activity finder",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "ActivRecommendIntent",
+          "slots": [],
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "skiing"
+              }
+            },
+            {
+              "name": {
+                "value": "hiking"
+              }
+            },
+            {
+              "name": {
+                "value": "play chess"
+              }
+            }
+          ],
+          "name": "activity"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "dummy"
+              }
+            }
+          ],
+          "name": "name"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "july"
+              }
+            },
+            {
+              "name": {
+                "value": "march"
+              }
+            },
+            {
+              "name": {
+                "value": "november"
+              }
+            },
+            {
+              "name": {
+                "value": "january"
+              }
+            },
+            {
+              "name": {
+                "value": "april"
+              }
+            },
+            {
+              "name": {
+                "value": "december"
+              }
+            },
+            {
+              "name": {
+                "value": "February"
+              }
+            }
+          ],
+          "name": "month"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "regularly",
+                "synonyms": [
+                  "course"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "one-time meeting"
+              }
+            }
+          ],
+          "name": "type"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "other cities",
+                "synonyms": [
+                  "whole country"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "near",
+                "synonyms": [
+                  "near me",
+                  "Nearby",
+                  "neighboring",
+                  "nearby"
+                ]
+              }
+            }
+          ],
+          "name": "distance"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "thirteen"
+              }
+            },
+            {
+              "name": {
+                "value": "twelve"
+              }
+            },
+            {
+              "name": {
+                "value": "eleven"
+              }
+            },
+            {
+              "name": {
+                "value": "ten"
+              }
+            },
+            {
+              "name": {
+                "value": "nine"
+              }
+            },
+            {
+              "name": {
+                "value": "eight"
+              }
+            },
+            {
+              "name": {
+                "value": "seven"
+              }
+            },
+            {
+              "name": {
+                "value": "six"
+              }
+            },
+            {
+              "name": {
+                "value": "five"
+              }
+            }
+          ],
+          "name": "age"
+        }
+      ]
+    }
+  },
+  "version": "8"
+}
