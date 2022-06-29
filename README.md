@@ -1,2 +1,2 @@
 # ActivityFinder
-Project for Smart Cities
+Project for Smart Cities Hackathon.
